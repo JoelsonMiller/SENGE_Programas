@@ -1,0 +1,52 @@
+#########################################################################
+############################ TEÓRICO ####################################
+
+-> Introdução à Sistemas Embarcados
+	-> Apresentar conceito geral sobre sistemas embarcados
+	-> Citar placas (Arduino, Rasp, BeagleBone ...)
+	-> Exemplificar com aplicações (robôs, elevadores, microondas, ** )
+
+-> Visão geral das placas Rasp.
+	-> Citar diferenças básicas (hardware) entre o pi zero w e pi 4B / Slide: Inserir imagens e destaca-las com objetivo de comparação
+	-> Apresentar os recursos computacionais do RPi ZW (caracteristicas do barramento (pinout): corrente, tensão, protocolo I2C,...) /
+		Slide: Explicar o protocolo básico do I2C, inserir imagens para explicar)
+
+-> Apresentação das placas SE
+	-> Apresentar componentes (LCD, pots, LEDs, etc)
+	-> Citar as primitivas justificando o uso em alto nível
+
+-> Uso da ferramento Putty
+	-> Apresentar o protocolo SSH (IP dos rasps).
+
+########################################################################
+############################## PRÁTICA #################################
+
+-> Comandos básicos do SHELL do Linux*
+	-> Comandos de navegabilidade nos diretórios (ls, cd, mkdir, etc..)
+	-> Criação, compilação e execução de programas em linguagem C (Ex: HelloWorld.c)
+
+-> Programação em C para solução de problemas utilizando a placa SE
+
+   //Programas básicos - Manhã//
+
+	-> Acender LEDs (Monitores) / Piscar LEDs (Alunos) (Esperar que os alunos utilizem um laço)
+	-> Ler botão / Acionar LED com botão e em seguida controlar a frequência de oscilação dos leds a partir da quantidade de botões apertados (independente da ordem)  
+	-> Ler potenciomentro / Mostrar na tela o valor do potenciomentro e acionar um LED com um valor de leitura definida pelo usuário (scanf)
+	-> Acionar buzzer / Operações lógicas (NOT, AND, OR) utilizando os botões para controlar o buzzer
+
+   //Programas básicos - Tarde//
+
+	-> Escrever no LCD / Escrever no LCD mensagem informada pelo usuário (scanf)
+	-> Escrever o número no LCD / Escrever os dados no potenciometro no LCD (sprintf)
+	-> Leitura do Keypad escrevendo no LCD / Mesma coisa 
+
+ 
+   //Desafios - Tarde//
+
+	-> Verificar validação de senha com indicação pelo LED
+	-> Aumentar a quantidade de LEDs acessos de acordo com a medida do potenciometro
+	-> Definir frequência de oscilação dos LEDs pelo KeyPad e mostrar no LCD a frequência
+	-> 
+
+ * Pensar sobre (nome melhor)
+** Pesquisar mais
