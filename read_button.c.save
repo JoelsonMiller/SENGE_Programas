@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include "SE.h"
+
+int main(){
+	while(1){
+		if(button(1))
+			printf("O botao foi apertado");
+	}
+
+return 0;
+}
